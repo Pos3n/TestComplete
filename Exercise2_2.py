@@ -71,4 +71,5 @@ def createTuple(listComplete):
 if __name__ == "__main__":
     for i in createTuple(controlText(textAllign(getText("C:/Users/luca-/Desktop/Cappuccetto_Rosso.txt")))):
         print(i)
+        print("ciao")
 
