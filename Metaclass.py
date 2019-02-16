@@ -69,7 +69,7 @@ class Wizard(Person):
         print("Setting age")
         self._birthday = value
         
-    age = property(get_age, set_age)
+    age = property(fget=get_age, fset=set_age)
 
 
 if __name__ == "__main__":
